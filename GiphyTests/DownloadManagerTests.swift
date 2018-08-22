@@ -28,7 +28,7 @@ class DownloadManagerTests: XCTestCase {
             fetchedData = data
             expectation.fulfill()
         }
-        waitForExpectations(timeout: 1, handler: nil)
+        waitForExpectations(timeout: 10, handler: nil)
         XCTAssertNotNil(fetchedData, "Data by valid url can't be nil")
     }
     

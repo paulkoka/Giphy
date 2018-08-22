@@ -11,11 +11,11 @@ import Foundation
 class DataSnapshot {
     var values: [Any]?
 
-    func setValuesBy(data: Data) {
+    func setValuesBy(data: Data) -> [Any]? {
         let json = try? JSONSerialization.jsonObject(with: data, options: [])
         guard let jsonDictionary = json as? [String: Any] else {
-            return
+            return nil
         }
-        self.values = jsonDictionary["data"] as? [Any]
+        return jsonDictionary["data"] as? [Any]
     }
 }

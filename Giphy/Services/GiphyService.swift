@@ -18,10 +18,16 @@ class GiphyService {
     func fetchTrendingsFromUrl(_ stringUrl: String, completionBlock: @escaping (_ objects: [GiphyData]?, Error?) -> Swift.Void) {
         let downloadManager = DownloadManager()
         downloadManager.fetchData(fromURL: stringUrl) { (data) in
-            guard let _ = data else {
+            guard let data = data else {
                 completionBlock(nil, GiphyServiceError.FetchingDataError)
                 return
             }
+            let snapshot = DataSnapshot()
+            snapshot.values = snapshot.setValuesBy(data: data)
+            let parserService = ParserService()
+            parserService.parse(snapshot: snapshot, completion: { (results) in
+                completionBlock(results, nil)
+            })
         }
     }
 }
