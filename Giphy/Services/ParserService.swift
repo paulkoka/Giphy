@@ -15,7 +15,7 @@ class ParserService {
             return
         }
         var results = [GiphyData]()
-        let parser = XMLParser()
+        let parser = XMLParser<GiphyData>()
         for value in snapshotValues {
             if let valueDictionary = value as? [String: Any], let data = try? JSONSerialization.data(withJSONObject: valueDictionary, options: []) {
                 let result = parser.parse(data: data)

@@ -8,12 +8,12 @@
 
 import Foundation
 
-class XMLParser {
-    func parse(data: Data) -> GiphyData? {
-        var dataObj: GiphyData?
+class XMLParser<T: Decodable> {
+    func parse(data: Data) -> T? {
+        var dataObj: T?
         do {
             let decoder = JSONDecoder()
-            dataObj = try decoder.decode(GiphyData.self, from: data)
+            dataObj = try decoder.decode(T.self, from: data)
         } catch let error {
             print("Error: \(error)")
         }
