@@ -20,6 +20,7 @@
 		DAB65925212D4E9400EEBE8F /* DownloadManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */; };
 		DAB65927212D558600EEBE8F /* GiphyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65926212D558600EEBE8F /* GiphyData.swift */; };
 		DAB65929212D5A5000EEBE8F /* GiphyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */; };
+		DAB6592C212D602C00EEBE8F /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592B212D602C00EEBE8F /* XMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerTests.swift; sourceTree = "<group>"; };
 		DAB65926212D558600EEBE8F /* GiphyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyData.swift; sourceTree = "<group>"; };
 		DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyServiceTests.swift; sourceTree = "<group>"; };
+		DAB6592B212D602C00EEBE8F /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		DA02654D212C362E004A756D /* Giphy */ = {
 			isa = PBXGroup;
 			children = (
+				DAB6592A212D600F00EEBE8F /* Parsers */,
 				DAB6591E212D4D1100EEBE8F /* Managers */,
 				DAB6591A212D48E300EEBE8F /* Services */,
 				DAB65916212D48A400EEBE8F /* Models */,
@@ -167,6 +170,14 @@
 				DAB65922212D4D5500EEBE8F /* DownloadManager.m */,
 			);
 			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		DAB6592A212D600F00EEBE8F /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				DAB6592B212D602C00EEBE8F /* XMLParser.swift */,
+			);
+			path = Parsers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB6592C212D602C00EEBE8F /* XMLParser.swift in Sources */,
 				DA026551212C362F004A756D /* ViewController.swift in Sources */,
 				DA02654F212C362E004A756D /* AppDelegate.swift in Sources */,
 				DA026557212C362F004A756D /* Giphy.xcdatamodeld in Sources */,
