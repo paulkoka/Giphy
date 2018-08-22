@@ -11,11 +11,16 @@ import Foundation
 struct GiphyData: Codable {
     let dataId: String?
     let title: String?
+    let rating: String?
     let importDatetime: String?
+    let trendingDatetime: String?
+    let image: GiphyImage?
     
     enum CodingKeys: String, CodingKey {
-        case title
+        case title, rating
         case dataId = "id"
         case importDatetime = "import_datetime"
+        case trendingDatetime = "trending_datetime"
+        case image = "images"
     }
 }

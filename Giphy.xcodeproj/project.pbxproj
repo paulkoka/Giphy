@@ -22,6 +22,8 @@
 		DAB65929212D5A5000EEBE8F /* GiphyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */; };
 		DAB6592C212D602C00EEBE8F /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592B212D602C00EEBE8F /* XMLParser.swift */; };
 		DAB6592E212D639A00EEBE8F /* ParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592D212D639A00EEBE8F /* ParserService.swift */; };
+		DAB65930212D71E600EEBE8F /* GiphyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592F212D71E600EEBE8F /* GiphyImage.swift */; };
+		DAB65932212D746500EEBE8F /* GiphyImageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65931212D746500EEBE8F /* GiphyImageMeta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyServiceTests.swift; sourceTree = "<group>"; };
 		DAB6592B212D602C00EEBE8F /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 		DAB6592D212D639A00EEBE8F /* ParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserService.swift; sourceTree = "<group>"; };
+		DAB6592F212D71E600EEBE8F /* GiphyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImage.swift; sourceTree = "<group>"; };
+		DAB65931212D746500EEBE8F /* GiphyImageMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImageMeta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 			children = (
 				DAB65917212D48C200EEBE8F /* DataSnapshot.swift */,
 				DAB65926212D558600EEBE8F /* GiphyData.swift */,
+				DAB6592F212D71E600EEBE8F /* GiphyImage.swift */,
+				DAB65931212D746500EEBE8F /* GiphyImageMeta.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 				DAB6592C212D602C00EEBE8F /* XMLParser.swift in Sources */,
 				DA026551212C362F004A756D /* ViewController.swift in Sources */,
 				DA02654F212C362E004A756D /* AppDelegate.swift in Sources */,
+				DAB65932212D746500EEBE8F /* GiphyImageMeta.swift in Sources */,
+				DAB65930212D71E600EEBE8F /* GiphyImage.swift in Sources */,
 				DA026557212C362F004A756D /* Giphy.xcdatamodeld in Sources */,
 				DAB65927212D558600EEBE8F /* GiphyData.swift in Sources */,
 				DAB65918212D48C200EEBE8F /* DataSnapshot.swift in Sources */,
