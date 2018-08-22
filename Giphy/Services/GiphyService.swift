@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 class GiphyService {
     private let apiKey = "znWbf6XFLaogUUU7wI6fPEOPxkGIO7cH"    
 }
