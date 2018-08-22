@@ -20,7 +20,7 @@
 		DAB65925212D4E9400EEBE8F /* DownloadManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */; };
 		DAB65927212D558600EEBE8F /* GiphyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65926212D558600EEBE8F /* GiphyData.swift */; };
 		DAB65929212D5A5000EEBE8F /* GiphyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */; };
-		DAB6592C212D602C00EEBE8F /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592B212D602C00EEBE8F /* XMLParser.swift */; };
+		DAB6592C212D602C00EEBE8F /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592B212D602C00EEBE8F /* JSONParser.swift */; };
 		DAB6592E212D639A00EEBE8F /* ParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592D212D639A00EEBE8F /* ParserService.swift */; };
 		DAB65930212D71E600EEBE8F /* GiphyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6592F212D71E600EEBE8F /* GiphyImage.swift */; };
 		DAB65932212D746500EEBE8F /* GiphyImageMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65931212D746500EEBE8F /* GiphyImageMeta.swift */; };
@@ -56,7 +56,7 @@
 		DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerTests.swift; sourceTree = "<group>"; };
 		DAB65926212D558600EEBE8F /* GiphyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyData.swift; sourceTree = "<group>"; };
 		DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyServiceTests.swift; sourceTree = "<group>"; };
-		DAB6592B212D602C00EEBE8F /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		DAB6592B212D602C00EEBE8F /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		DAB6592D212D639A00EEBE8F /* ParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserService.swift; sourceTree = "<group>"; };
 		DAB6592F212D71E600EEBE8F /* GiphyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImage.swift; sourceTree = "<group>"; };
 		DAB65931212D746500EEBE8F /* GiphyImageMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImageMeta.swift; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		DAB6592A212D600F00EEBE8F /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
-				DAB6592B212D602C00EEBE8F /* XMLParser.swift */,
+				DAB6592B212D602C00EEBE8F /* JSONParser.swift */,
 			);
 			path = Parsers;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB6592C212D602C00EEBE8F /* XMLParser.swift in Sources */,
+				DAB6592C212D602C00EEBE8F /* JSONParser.swift in Sources */,
 				DA026551212C362F004A756D /* ViewController.swift in Sources */,
 				DA02654F212C362E004A756D /* AppDelegate.swift in Sources */,
 				DAB65932212D746500EEBE8F /* GiphyImageMeta.swift in Sources */,

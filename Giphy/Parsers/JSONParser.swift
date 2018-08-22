@@ -1,5 +1,5 @@
 //
-//  XMLParser.swift
+//  JSONParser.swift
 //  Giphy
 //
 //  Created by Viktar Semianchuk on 8/22/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class XMLParser<T: Decodable> {
+class JSONParser<T: Decodable> {
     func parse(data: Data) -> T? {
         var dataObj: T?
         do {
