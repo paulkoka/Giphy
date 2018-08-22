@@ -18,6 +18,8 @@
 		DAB6591C212D490100EEBE8F /* GiphyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6591B212D490100EEBE8F /* GiphyService.swift */; };
 		DAB65923212D4D5500EEBE8F /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB65922212D4D5500EEBE8F /* DownloadManager.m */; };
 		DAB65925212D4E9400EEBE8F /* DownloadManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */; };
+		DAB65927212D558600EEBE8F /* GiphyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65926212D558600EEBE8F /* GiphyData.swift */; };
+		DAB65929212D5A5000EEBE8F /* GiphyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		DAB65921212D4D5500EEBE8F /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		DAB65922212D4D5500EEBE8F /* DownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
 		DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerTests.swift; sourceTree = "<group>"; };
+		DAB65926212D558600EEBE8F /* GiphyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyData.swift; sourceTree = "<group>"; };
+		DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 			children = (
 				DA026566212C362F004A756D /* GiphyTests.swift */,
 				DAB65924212D4E9400EEBE8F /* DownloadManagerTests.swift */,
+				DAB65928212D5A5000EEBE8F /* GiphyServiceTests.swift */,
 				DA026568212C362F004A756D /* Info.plist */,
 			);
 			path = GiphyTests;
@@ -134,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB65917212D48C200EEBE8F /* DataSnapshot.swift */,
+				DAB65926212D558600EEBE8F /* GiphyData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 				DA026551212C362F004A756D /* ViewController.swift in Sources */,
 				DA02654F212C362E004A756D /* AppDelegate.swift in Sources */,
 				DA026557212C362F004A756D /* Giphy.xcdatamodeld in Sources */,
+				DAB65927212D558600EEBE8F /* GiphyData.swift in Sources */,
 				DAB65918212D48C200EEBE8F /* DataSnapshot.swift in Sources */,
 				DAB6591C212D490100EEBE8F /* GiphyService.swift in Sources */,
 				DAB65923212D4D5500EEBE8F /* DownloadManager.m in Sources */,
@@ -279,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA026567212C362F004A756D /* GiphyTests.swift in Sources */,
+				DAB65929212D5A5000EEBE8F /* GiphyServiceTests.swift in Sources */,
 				DAB65925212D4E9400EEBE8F /* DownloadManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
